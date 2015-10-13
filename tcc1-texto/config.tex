@@ -1,0 +1,89 @@
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{ae}
+\usepackage[brazil]{babel}
+\usepackage{a4wide}
+\usepackage{comment}
+\usepackage[pdftex]{graphicx,color}
+\usepackage{graphics}
+\usepackage{cite}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{fancyvrb}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{lscape}
+\usepackage{textcase}
+\usepackage{anysize}
+\usepackage{setspace}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{subfig}
+\usepackage{cite}
+\usepackage[alf]{abntex2cite}
+
+\marginsize{20mm}{20mm}{20mm}{15mm}
+
+
+%% Cabeçalhos
+\renewcommand{\topfraction}{1}
+\renewcommand{\bottomfraction}{1}
+\renewcommand{\floatpagefraction}{1}
+\renewcommand{\textfraction}{0}
+%\renewcommand{\baselinestretch}{2}  
+\doublespacing %espaçamento duplo
+\sloppy
+
+%% Nomes
+\floatstyle{plain}  %%% tipos: plain, boxed, ruled
+\newfloat{codigo}{tbp}{lop}[section]
+\floatname{codigo}{Código}
+
+%%% nome para ser usado no sumário
+
+\newcommand{\listofcodename}{Lista de C\'{o}digos}
+
+
+
+% RESUMO ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\newcommand{\resumo}[1]{
+\begin{center} \LARGE \bf Resumo \end{center} 
+
+\vskip 4em
+\input{#1}
+
+\newpage
+
+}
+
+% ABSTRACT ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\newcommand{\abstractt}[1]{
+\begin{center} \LARGE \bf Abstract \end{center} 
+
+\vskip 4em
+\input{#1}
+
+\newpage
+
+}
+
+% Sumário -----------
+\newcommand{\sumario}{
+\renewcommand{\contentsname}{Sum\'{a}rio}
+\tableofcontents
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+
+\newpage
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+\addcontentsline{toc}{chapter}{\listofcodename}
+\listof{codigo}{\listofcodename}  % Lista de Códigos
+
+\clearpage
+}
+
+
