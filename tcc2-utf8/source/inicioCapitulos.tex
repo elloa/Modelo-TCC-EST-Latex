@@ -1,0 +1,14 @@
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\renewcommand{\headrulewidth}{0.5pt}
+\newcommand{\rom}{\fontfamily{cmr}\fontseries{m}\fontsize{10}{12}\selectfont}
+\fancyhf{} \fancyhead[LE,RO]{\rom\thepage}
+\fancyhead[LO]{\rom\rightmark} \fancyhead[RE]{\rom\leftmark}
+\fancypagestyle{plain}{
+    \fancyhead{} % get rid of headers
+    \renewcommand{\headrulewidth}{0pt} % and the line
+ }
+
+
+\pagenumbering{arabic}

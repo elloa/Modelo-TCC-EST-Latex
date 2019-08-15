@@ -1,0 +1,10 @@
+\select@language {brazil}
+\contentsline {chapter}{Lista de Tabelas}{vi}
+\contentsline {chapter}{Lista de Figuras}{viii}
+\contentsline {chapter}{Lista de C\'{o}digos}{viii}
+\contentsline {chapter}{\numberline {1}Exemplo}{1}
+\contentsline {section}{\numberline {1.1}Tabela com o Pacote Booktabs}{1}
+\contentsline {section}{\numberline {1.2}Inser\IeC {\c c}\IeC {\~a}o de Figuras}{1}
+\contentsline {section}{\numberline {1.3}Refer\IeC {\^e}ncias Bibliogr\IeC {\'a}ficas no Padr\IeC {\~a}o ABNT}{2}
+\contentsline {chapter}{\numberline {2}T\IeC {\'\i }tulo do Quarto Cap\IeC {\'\i }tulo}{3}
+\contentsline {section}{\numberline {2.1}Algoritmos}{3}

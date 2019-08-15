@@ -1,0 +1,14 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Bennett e Shor 1998]{Bennett:QuantumInformationSurvey}
+\abntrefinfo{Bennett e Shor}{BENNETT; SHOR}{1998}
+{BENNETT, C.~H.; SHOR, P.~W. Quantum information theory.
+\emph{{IEEE} Transactions on Information Theory}, v.~44, n.~6, p. 2724--2742,
+  1998.}
+
+\end{thebibliography}

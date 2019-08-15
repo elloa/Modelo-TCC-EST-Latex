@@ -1,0 +1,58 @@
+% Template para Proposta e TCC da EST/UEA -
+% Padrão para os cursos do Núcleo de Computação
+%
+% Elaborado por Elloá B. Guedes
+% Adaptado da versão elaborada por:				%                   Jucimar Maia Jr.
+%
+% Versão beta - 08 de outubro de 2015
+%
+\documentclass[a4paper,titlepage,12pt]{report}
+
+
+\input{config}
+\pagestyle{plain}
+\input{./source/folhaRosto}
+
+
+
+%% Preencha aqui os seguintes dados
+\def \titulo{Previsão da Cota do Rio Negro com Redes Neurais Artificiais}
+\def \orientador{Profa. Dra. Elloá Barreto Guedes da Costa}
+\def \nome{Deyvid Eric de Moraes Marinho}
+\def \mes{Novembro}
+\def \ano{2015}
+
+\begin{document}
+
+\folhaRosto{\titulo}{\nome}{\orientador}{\mes}{\ano}
+
+% Edite os seguintes arquivos para alterar as informações necessárias
+\input{./source/fichaCatalografica}
+\input{./source/folhaAprovacao}
+
+
+% Indique onde esta o arquivo do resumo
+\resumo{./files/resumo.tex}
+% Idem para o abstract
+\abstractt{./files/abstract.tex}
+
+
+\sumario
+
+% Configuração de cabeçalhos
+\input{./source/inicioCapitulos}
+
+
+% Seus capítulos vão aqui --------
+\input{./files/exemplo.tex}
+\input{./files/CAP4.tex}
+
+
+
+% Referência segundo o padrão ABNT
+% Edite este arquivo e inclua suas referências segundo a notação do Bibtex
+\bibliography{ref}
+
+
+
+\end{document}
